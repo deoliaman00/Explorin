@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+    
+  overflow-x: hidden;
+}
+.uniDiv{
+
+  padding: 10px;
+  text-align:center;
+  
+}
+
+
+.table1,.table1d,.table1h {
+  border: 1px solid rgb(252, 242, 242);
+   border-spacing:2px;
+    border-style: solid;
+    border-width:thin;
+    margin: auto;
+    width: 1000px;
+    height: 40px;
+}
+.table1h{
+    color: white;
+  background-color: #ed7818;
+}
+.table1r:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+
+.inputForm{
+    margin-bottom: 6px;
+    margin-top: 6px;
+    margin-left: 6px;
+    width: 330px;
+    height: 30px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    
+}
+
+#addDetails{
+     border: none;
+     background-color: #e96d07;
+     border-radius: 4px;
+     color:white;
+     padding: 10px 20px;
+     margin-top: 1%;
+}
+#backbutton{
+     margin: auto; 
+    margin-left: 80%;
+    margin-right: 0;
+}
+#submitform{
+     border: none;
+     background-color: #e96d07;
+     border-radius: 4px;
+     color:white;
+     padding: 12px 28px;
+     margin-top: 2%;
+
+}
+#backButton{
+  background-color: black;
+  color:white;    
+  border-radius:4px; 
+  padding: 10px 20px;
+  margin-top: 1%;
+}
