@@ -1,12 +1,47 @@
 body{
     background-color: coral;
+    margin: 0;
 }
 .Header-div{
     height: 250px;
     display: flex;
-    background-color: aqua;
+    background-color: #205395ea;
 }
 .top-header{
     margin: auto;
-    background-color: blueviolet;
+   font-family: 'Mulish', sans-serif;
+   font-size: 60px;
+}
+.search-part2{
+    text-align: center;
+}
+.search-part{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+.input-box{
+    width: 250px;
+    height: 30px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.whole-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.posts-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: auto;  
+}
+.post-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    margin: 1%;
+    background-color:#F55050;
 }
