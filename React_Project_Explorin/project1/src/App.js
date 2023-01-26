@@ -20,6 +20,7 @@ const App = () => {
 
 
   function checking(pop) {
+    console.log("checking");
     if (pop.target.value !== "") {
       let ele = post.filter((ele) => {
         return ele.name.includes(pop.target.value);
