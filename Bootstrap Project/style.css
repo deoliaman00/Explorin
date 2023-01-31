@@ -1,0 +1,26 @@
+body{
+    background-color: #86A3B8;
+}
+.blogs-pro{
+    background-color: #EAE7B1;
+}
+section{
+    background-color: #EAE7B1;
+}
+
+.upperblogs-1{
+    background-color: #EAE7B1;
+}
+.upperblogs-2{
+    background-color: #EAE7B1;
+    margin-bottom: 10px;
+}
+.forms{
+    background-color: #567189;
+    border-radius: 10px;
+    text-align: center;
+    height: 550px;
+    width: 500px;
+    margin-left: 25%;
+    
+}
