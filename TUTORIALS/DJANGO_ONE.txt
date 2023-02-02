@@ -1,0 +1,5 @@
+1. Create a env in Django: py -m venv env
+
+2. Activate a env in Django: env\Scripts\Activate
+
+3. 
