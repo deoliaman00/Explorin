@@ -11,13 +11,16 @@ h1, h2, h3, h4, h5, h6 {
 ul {
   margin: 0;
 }
+#uni-title{
+  color:white
+}
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #138fe8;
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  color: #0075b9;
 }
 
 .site-header .navbar-nav .nav-link:hover {
