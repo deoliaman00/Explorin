@@ -1,0 +1,11 @@
+<h1>
+    Hi Just Enter your text below
+</h1>
+<form method="POST" action="counter">
+    {% csrf_token %}
+    <span>
+        <textarea name="text" id="" cols="30" rows="10"></textarea>
+        <input type="submit">
+    </span>
+</form>
+
