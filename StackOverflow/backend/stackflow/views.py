@@ -3,8 +3,8 @@ from rest_framework.response import Response
 from rest_framework.generics import CreateAPIView
 from rest_framework import generics,status
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
-from .models import User, Question, Answer, Tag
-from .serializers import UserSerializer, QuestionSerializer, AnswerSerializer, TagSerializer
+from .models import User, Question, Answer
+from .serializers import UserSerializer, QuestionSerializer, AnswerSerializer
 
 # this is used to create a new post/ new question
 # handles a post request and is using a class based view 
@@ -45,11 +45,3 @@ class AnswerDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Answer.objects.all()
     serializer_class = AnswerSerializer
     permission_classes = [IsAuthenticatedOrReadOnly]
-
-class TagList(generics.ListCreateAPIView):
-    queryset = Tag.objects.all()
-    serializer_class = TagSerializer
-
-class TagDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Tag.objects.all()
-    serializer_class = TagSerializer
